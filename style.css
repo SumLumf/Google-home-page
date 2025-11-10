@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bilde1 {
+    width: 60px;
+}
+
+.left, .right {
+    display: flex;
+
+}
+
+.left *, .right * {
+    padding: 0px 10px;
+}
+
+.SignIn {
+    background-color:dodgerblue;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.container_3 img {
+    width: 20px;
+    padding: 15px 20px;
+}
+
+.container_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 20px 23%;
+}
+
+.inp {
+    border: none;
+    outline: none;
+    padding: 15px 0px;
+}
+
+.container_4 {
+    display: flex; 
+    justify-content: center;
+}
+
+.Left, .Right {
+    display: flex;
+    background-color: lightgray;
+    margin: 15px;
+    padding: 0px;
+}
+
+.Left *, .Right * {
+    padding: 0px 8px;
+}
+
+.container_5 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.English {
+    text-decoration: underline;
+    color: blue;
+}
+
+.container_6 {
+    display: flex;
+    background-color: lightgray;
+    border-bottom: 1px solid gray;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+    margin-top: 70px;
+}
+
+.container_6 p {
+    padding-left: 10px;
+}
+
+.container_7{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
+
+.lEFT, .rIGHT {
+    display: flex;
+}
+
+.lEFT *, .rIGHT * {
+    padding: 0px 10px;
+}
